@@ -29,6 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     setupUI();
     setWindowTitle("文件资源管理器");
+    setWindowIcon(QIcon(":/icon.png"));
     resize(800, 600);
 }
 

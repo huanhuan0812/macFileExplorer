@@ -14,6 +14,7 @@ qt_add_executable(macFileExplorer
     main.cpp
     mainwindow.cpp
     mainwindow.h
+    resources.qrc
 )
 
 target_link_libraries(macFileExplorer PRIVATE
