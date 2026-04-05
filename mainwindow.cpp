@@ -29,7 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     setupUI();
     setWindowTitle("文件资源管理器");
-    resize(1200, 800);
+    resize(800, 600);
 }
 
 MainWindow::~MainWindow()
